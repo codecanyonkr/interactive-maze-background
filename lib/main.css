@@ -1,0 +1,114 @@
+body {
+	font-family:Arial;
+	font-size: 16px;
+	margin:0px;
+}
+
+#box {
+	margin: 0px auto 30px;
+	overflow: hidden;
+	padding-bottom: 1px;
+	background-color: #fff;
+	visibility: hidden;
+	z-index:-100;
+	position:fixed;
+}
+#curl {
+	cursor:pointer;
+	position:relative;
+	z-index:4;
+	top:0;
+	right:1px;
+	display:none;
+}
+.cell {
+	float: left;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+
+.left { border-left: 1px solid #ccc; }
+.right { border-right: 1px solid #ccc; }
+.top { border-top: 1px solid #ccc; }
+.bottom { border-bottom: 1px solid #ccc; }
+
+.noleft { border-left: 1px solid #fff; }
+.noright { border-right: 1px solid #fff; }
+.notop { border-top: 1px solid #fff; }
+.nobottom { border-bottom: 1px solid #fff; }
+.mrow { float: left; }
+.visited {
+	background-image:url('../img/player.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.player {
+	background-image:url('../img/red.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#close {
+	position:absolute;
+	right:20px;
+	top:20px;
+	z-index:4;
+	display:none;
+	cursor:pointer;
+}
+#instructions {
+	position:absolute;
+	display:none;
+	z-index:4;
+	top:20px;
+	right:100px;
+	horizontal-align:center;
+}
+#instruction {
+	font-family:Arial;
+	font-size: 15px;
+	background-image:url('../img/b.png');
+	width:400px;
+	height:60px;
+	padding:10px;
+	text-align:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	color:white;
+	box-shadow: 0.2em 0.2em 0.4em black;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+
+
+
+#content {
+	z-index:1;
+	position:relative;
+}
+#header {
+	color:#6666ff;
+	font-family:Impact;
+	font-size:26px;
+	font-weight:normal;
+	text-shadow: 0.1em 0.1em 1em #000;
+	
+}
+#textbox {
+	background-image:url('../img/b.png');
+	width:400px;
+	height:400px;
+	padding:15px;
+	text-align:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	color:white;
+	box-shadow: 0.2em 0.2em 0.4em black;
+	text-shadow: 0.1em 0.1em 0.2em black;
+
+}

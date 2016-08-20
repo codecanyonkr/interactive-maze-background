@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Maze Background Generator</title>
+		<link rel="stylesheet" href="lib/main.css" type="text/css" />
+		<script type="text/javascript" src="lib/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="lib/jqueryui.js"></script>
+		<script type="text/javascript" src="lib/turn.js"></script>
+		<script type="text/javascript" src="lib/maze.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="lib/turn.css" />
+	</head>
+	<body>
+		<div id="curl" onclick="mbg.mazeFront()"><img id="target" src="maze.png" /></div>
+		<img src="img/x.png" id="close" onclick="mbg.mazeBack()" />
+		<div id="instructions"><div id="instruction">Use the arrow keys to try and guide the little <font color="red">red guy</font> to the bottom right corner. To display the website, hit the red X in the top right corner.</div></div>
+		<div id="box"></div>
+		<div id="content">
+			<!-- Insert main content below here -->
+
+
+
+
+
+			<br /><br />
+			<center>
+			<div id="header">Interactive Maze Background</div>
+			<div id="textbox">
+			<p>The "Interactive Maze Background" is a customizable script that generates a new unique maze every time the page is loaded. The script can be easily placed into any existing web page to spruce up your website.</p>
+			<p>If you would like to travel through the maze yourself, just use the arrow keys to guide the <span style="color:red">avatar</span> to the lower-right corner. You can click the peel in the upper-right corner to hide this content.</p>
+			<ul>
+			<li>Works with any existing website</li>
+			<li>Fully customizable</li>
+			<li>Optional self-solver</li>
+			<li>Works in all major browsers with graceful degradation</li>
+			<li>Non-obtrusive since it waits for all content on the page to be loaded first before building the maze</li>
+			<li>Mazes are randomly generated for a new experience to each visitor</li>
+			</ul>
+			<div id="debug"></div>
+			</div>
+			</center>
+
+
+			
+
+			<!-- Insert main content above here -->
+		</div>
+	</body>
+</html>
